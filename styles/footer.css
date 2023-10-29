@@ -1,0 +1,119 @@
+.footer-container {
+    display: flex;
+    padding: 48px 100px 38px;
+    justify-content: space-between;
+}
+
+.furnio .title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.furnio .address {
+    margin-top: 50px;
+    color: #9F9F9F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.links p {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 55px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-list li {
+    list-style: none;
+    margin-top: 46px;
+}
+
+.footer-list li:first-child {
+    margin-top: unset;
+}
+
+.help p {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 55px;
+}
+
+.help li {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.newsletter p {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 53px;
+}
+
+.newsletter input {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: unset;
+    border-bottom: solid 1px black;
+    outline: none;
+    width: 200px;
+    font-family: 'Poppins';
+}
+
+.newsletter button {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-style: none;
+    border-bottom: solid 1px black;
+    background-color: unset;
+    margin-left: 11px;
+    font-family: 'Poppins';
+}
+
+.line {
+    width: 1240.015px;
+    height: 1px;
+    background: #D9D9D9;
+    margin-left: 100px;
+}
+
+.copyright {
+    margin-left: 100px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+    margin-bottom: 38px;
+}
