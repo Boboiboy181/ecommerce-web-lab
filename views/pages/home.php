@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="../../styles/home.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <title>Lab1</title>
@@ -12,29 +12,7 @@
 
 <body>
   <div class="container">
-    <!-- Header -->
-    <header class="header-container">
-      <div class="header-logo">
-        <img src="./assets/imgs/logo.svg" alt="">
-      </div>
-      <div class="header-navbar">
-        <ul class="header-list">
-          <li class="header-item"><a href="#" class="header-item-link">Home</a></li>
-          <li class="header-item"><a href="#" class="header-item-link">Shop</a></li>
-          <li class="header-item"><a href="#" class="header-item-link">About</a></li>
-          <li class="header-item"><a href="#" class="header-item-link">Contact</a></li>
-        </ul>
-      </div>
-      <div class="header-icon">
-        <ul class="header-list">
-          <li class="header-item"><img src="./assets/imgs/mdi_account-alert-outline.svg" alt=""></li>
-          <li class="header-item"><img src="./assets/imgs/akar-icons_search.svg" alt=""></li>
-          <li class="header-item"><img src="./assets/imgs/akar-icons_heart.svg" alt=""></li>
-          <li class="header-item"><img src="./assets/imgs/ant-design_shopping-cart-outlined.svg" alt=""></li>
-        </ul>
-      </div>
-    </header>
-    <!-- End of header -->
+ <?php include '../header.php';?>
 
     <!-- Carsouel -->
     <div class="carsouel">
@@ -42,8 +20,8 @@
         <p class="carsouel-sub-heading">New Arrival</p>
         <h1 class="carsouel-heading">Discover Our New Collection</h1>
         <p class="carsouel-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
-          nec
-          ullamcorper mattis.</p>
+          nec ullamcorper mattis.
+        </p>
         <button>Buy now</button>
       </div>
     </div>
@@ -57,19 +35,19 @@
         <div class="menu-list">
           <div class="menu-item">
             <div class="menu-item-img">
-              <img src="./assets/imgs/image 100.png" alt="">
+              <img src="../../assets/imgs/image 100.png" alt="">
             </div>
             <p>Dining</p>
           </div>
           <div class="menu-item">
             <div class="menu-item-img">
-              <img src="./assets/imgs/image 101.png" alt="">
+              <img src="../../assets/imgs/image 101.png" alt="">
             </div>
             <p>Living</p>
           </div>
           <div class="menu-item">
             <div class="menu-item-img">
-              <img src="./assets/imgs/image 106.png" alt="">
+              <img src="../../assets/imgs/image 106.png" alt="">
             </div>
             <p>Bedroom</p>
           </div>
