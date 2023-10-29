@@ -55,7 +55,7 @@
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
@@ -65,36 +65,34 @@
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Leviosa</h2>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Lolito</h2>
+                        <p>Luxury big sofa</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 7.000.000</h3>
+                        <strike><p>Rp 14.000.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Respira</h2>
+                        <p id='nametaglast'>Outdoor bar table and stool</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 500.000</h3>
                     </div>
                 </div>
             </div>
@@ -104,7 +102,7 @@
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
@@ -114,36 +112,34 @@
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Leviosa</h2>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Lolito</h2>
+                        <p>Luxury big sofa</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 7.000.000</h3>
+                        <strike><p>Rp 14.000.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Respira</h2>
+                        <p id='nametaglast'>Outdoor bar table and stool</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 500.000</h3>
                     </div>
                 </div>
             </div>
@@ -153,7 +149,7 @@
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
@@ -163,36 +159,34 @@
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Leviosa</h2>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Lolito</h2>
+                        <p>Luxury big sofa</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 7.000.000</h3>
+                        <strike><p>Rp 14.000.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Respira</h2>
+                        <p id='nametaglast'>Outdoor bar table and stool</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 500.000</h3>
                     </div>
                 </div>
             </div>
@@ -202,7 +196,7 @@
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
@@ -212,36 +206,34 @@
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Leviosa</h2>
+                        <p>Stylish Cafe Chair</p>
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Lolito</h2>
+                        <p>Luxury big sofa</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 7.000.000</h3>
+                        <strike><p>Rp 14.000.000</p></strike>
                     </div>
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chảir</p>
+                        <h2>Respira</h2>
+                        <p id='nametaglast'>Outdoor bar table and stool</p>
                     </div>
                     <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                        <h3>Rp 500.000</h3>
                     </div>
                 </div>
             </div>
@@ -254,8 +246,39 @@
         </div>
     </div>
     <!-- EndofContent -->
-        <!-- CustomerServiceBanner -->
-        <!-- Footer  -->
+
+    <!-- CustomerServiceBanner -->
+    <div class='servicecontainer'>
+        <div class='service-content'>
+            <img src="../../assets/imgs/Group.svg" alt="Cup" id='cup'>
+            <div class='main'>
+                <h2>High Quality</h2>
+                <h3>crafted from top materials</h3>
+            </div>
+        </div>
+        <div class='service-content'>
+            <img src="../../assets/imgs/guarantee.svg" alt="tick">
+            <div class='main'>
+                <h2>Warranty Protection</h2>
+                <h3>Over 2 years</h3>
+            </div>
+        </div>
+        <div class='service-content'>
+            <img src="../../assets/imgs/Vector.svg" alt="Shipping">
+            <div class='main'>
+                <h2>Free Shipping</h2>
+                <h3>Order over 150 $</h3>
+            </div>
+        </div>
+        <div class='service-content'>
+            <img src="../../assets/imgs/customer-support.svg" alt="support">
+            <div class='main'>
+                <h2>24 / 7 Support</h2>
+                <h3>Dedicated support</h3>
+            </div>
+        </div>
+    </div> 
+    <!-- Footer  -->
     <?php include '../footer.php'; ?>
 </div>
 </body>
