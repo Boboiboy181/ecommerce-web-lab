@@ -99,4 +99,58 @@
 .function-sortby input::placeholder{
     padding-left: 30px;
 }
+.main-content{
+    width: 1440px;
+    height: 2051px;
+    margin-top: 46px;
 
+}
+.content-container{
+    width: 1236px;
+    height: 2034px;
+    margin-top: 17px;
+    margin-left:99px;
+    margin-right: 105px;
+}
+.content-container .row{
+    height: 446px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.content-container .content-card{
+    background-color: RGB(244,245,247);
+    width: 285px;
+    height: 446px;
+}
+.nametag{
+    width: 177px;
+    height: 61px;
+    margin-left: 16px;
+}
+.nametag h2 {
+    color:rgba(58, 58, 58, 1)
+}
+.nametag p{
+    margin-top: 8px;
+    color:rgba(137, 137, 137, 1)
+}
+.pricetag{
+    display: flex;
+    width: 249px;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+.pricetag h3 {
+    color:rgba(58, 58, 58, 1)
+}
+.pricetag p {
+    margin-left: 16px;
+    color: rgba(176, 176, 176, 1);
+}
+.pricetag strike{
+    color: rgba(176, 176, 176, 1);
+}

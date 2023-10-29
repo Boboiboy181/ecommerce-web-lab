@@ -47,6 +47,194 @@
         </div>
     </div>
         <!-- Content -->
+    <div class='main-content'>
+        <div class='content-container'>
+            <div class='row'>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='nametag'>
+                        <h2>Syltherine</h2>
+                        <p>Stylish Cafe Chảir</p>
+                    </div>
+                    <div class='pricetag'>
+                        <h3>Rp 2.500.000</h3>
+                        <strike><p>Rp 3.500.000</p></strike>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         <!-- CustomerServiceBanner -->
         <!-- Footer  -->
     <?php include '../footer.php'; ?>
