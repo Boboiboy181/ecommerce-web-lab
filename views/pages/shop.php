@@ -51,10 +51,8 @@
         <div class='content-container'>
             <div class='row'>
                 <div class='content-card'>
-                    <div>
-                        <img src="../../assets/imgs/image 1.svg" alt="item1">
-                        <div class='saleoff'>-30%</div>
-                    </div>
+                    <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
