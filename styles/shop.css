@@ -1,5 +1,5 @@
 .banner-container{
-    background-image: url('./imgs/banner.png') ;
+    background-image: url('../assets/imgs/banner.png') ;
     width: 1440px;
     height: 316px;
     display: flex;
