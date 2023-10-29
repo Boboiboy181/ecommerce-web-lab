@@ -25,27 +25,27 @@
         <!-- EndofBanner -->
 
         <!-- FunctionBar -->
-        <div class="function-container">
-            <div class="functionbar-filter">
-            <img src="./assets/imgs/filter.svg" alt="filter" />
-            <p>Filter</p>
-            </div>
-            <div class="functionbar-4dots">
-            <img src="./assets/imgs/4dots.svg" alt="4dots" />
-            </div>
-            <div class="function-viewlist">
-            <img src="./assets/imgs/viewlist.svg" alt="viewlist" />
-            </div>
-            <div class="function-showresult">Showing 1–16 of 32 results</div>
-            <div class="function-showpagenumber">
-            Show
-            <input type="text" placeholder="16" />
-            </div>
-            <div class="function-sortby">
-            Sort by
-            <input type="text" placeholder="Default" />
-            </div>
+    <div class="function-container">
+        <div class="functionbar-filter">
+        <img src="./assets/imgs/filter.svg" alt="filter" />
+        <p>Filter</p>
         </div>
+        <div class="functionbar-4dots">
+        <img src="./assets/imgs/4dots.svg" alt="4dots" />
+        </div>
+        <div class="function-viewlist">
+        <img src="./assets/imgs/viewlist.svg" alt="viewlist" />
+        </div>
+        <div class="function-showresult">Showing 1–16 of 32 results</div>
+        <div class="function-showpagenumber">
+        Show
+        <input type="text" placeholder="16" />
+        </div>
+        <div class="function-sortby">
+        Sort by
+        <input type="text" placeholder="Default" />
+        </div>
+    </div>
         <!-- Content -->
         <!-- CustomerServiceBanner -->
         <!-- Footer  -->
