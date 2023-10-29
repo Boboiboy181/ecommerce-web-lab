@@ -51,7 +51,10 @@
         <div class='content-container'>
             <div class='row'>
                 <div class='content-card'>
-                    <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div>
+                        <img src="../../assets/imgs/image 1.svg" alt="item1">
+                        <div class='saleoff'>-30%</div>
+                    </div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -74,6 +77,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -85,6 +89,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -98,6 +103,7 @@
             <div class='row'>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -120,6 +126,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -131,6 +138,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -144,6 +152,7 @@
             <div class='row'>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -166,6 +175,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -177,6 +187,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -190,6 +201,7 @@
             <div class='row'>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 1.svg" alt="item1">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -212,6 +224,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='saleoff'>-30%</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -223,6 +236,7 @@
                 </div>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
                     <div class='nametag'>
                         <h2>Syltherine</h2>
                         <p>Stylish Cafe Chảir</p>
@@ -232,9 +246,16 @@
                         <strike><p>Rp 3.500.000</p></strike>
                     </div>
                 </div>
+            </div>
+            <div class='pagenumber'>
+                <button class='pagebutton' id='button1'>1</button>
+                <button class='pagebutton'>2</button>
+                <button class='pagebutton'>3</button>
+                <button class='pagebutton' id='buttonNext'>Next</button>
             </div>
         </div>
     </div>
+    <!-- EndofContent -->
         <!-- CustomerServiceBanner -->
         <!-- Footer  -->
     <?php include '../footer.php'; ?>

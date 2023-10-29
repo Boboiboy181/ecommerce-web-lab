@@ -111,6 +111,7 @@
     margin-top: 17px;
     margin-left:99px;
     margin-right: 105px;
+    position: relative;
 }
 .content-container .row{
     height: 446px;
@@ -123,6 +124,7 @@
     background-color: RGB(244,245,247);
     width: 285px;
     height: 446px;
+    position: relative;
 }
 .nametag{
     width: 177px;
@@ -153,4 +155,56 @@
 }
 .pricetag strike{
     color: rgba(176, 176, 176, 1);
+}
+.content-card .saleoff{
+    background-color: RGB(233,113,113);
+    width: 45px; /* Chiều rộng của thẻ */
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:24px;
+    top: 24px;
+}
+.content-card .new{
+    background-color: RGB(46,193,172);
+    width: 45px; /* Chiều rộng của thẻ */
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:24px;
+    top: 24px;
+}
+.content-container .pagenumber{
+    width: 392px;
+    height: 90px;
+    position: absolute;
+    left: 422px;
+    right: 422px;
+    display: flex;
+    align-items: end;
+}
+.pagebutton{
+    background-color: rgba(249, 241, 231, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-right: 38px;
+    border-style: none;
+    font-size: 20px;
+}
+#button1{
+    background-color: RGB(184,142,47);
+    color:white;
+}
+#buttonNext{
+    width:98px;
+    height: 60px;
 }
