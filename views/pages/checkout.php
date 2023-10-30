@@ -27,6 +27,7 @@
 
     <!-- Content -->
     <div class='main-checkout'>
+        <!-- CustomerInfo -->
         <div class='billing-details'>
             <h1>Billing details</h1>
             <div class='nameinfo'>
@@ -82,10 +83,32 @@
                 <input type="text" id='lastrow' placeholder="Additional information">
             </div>
         </div>
-        <div class='money-details'></div>
-    </div>
+        <!-- EndOfCustomerInfo -->
 
+        <!-- MoneyInfo -->
+            <div class='money-details'>
+                <div class='money-info'>
+                    <div class='product-info'>
+                        <div class='product'>
+                            <h1>Product</h1>
+                            <h3>Asgaard sofa</h3>
+                            <h3>Subtotal</h3>
+                            <h3>Total</h3>
+                        </div>
+                        <div class='subtotal'>
+                            <h1>Subtotal</h1>
+                            <h3>Rs. 250,000.00</h3>
+                            <h3>Rs. 250,000.00</h3>
+                            <h3 id='finalprice'>Rs. 250,000.00</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- EndofMoneyInfo -->
+    </div>
     <!-- EndofContent -->
+
+
     <!-- CustomerServiceBanner -->
     <?php include '../servicebanner.php'; ?>
 
