@@ -29,8 +29,8 @@
     <div class='main-checkout'>
         <div class='billing-details'>
             <h1>Billing details</h1>
-            <div class='row' id='nameinfo'>
-                <div class='name' id='a'>
+            <div class='nameinfo'>
+                <div class='name' id='First'>
                     <h3>First Name</h3>
                     <input type="text">
                 </div>
@@ -39,15 +39,48 @@
                     <input type="text">
                 </div>
             </div>
-            <div class='row'></div>
-            <div class='row'></div>
-            <div class='row'></div>
-            <div class='row'></div>
-            <div class='row'></div>
-            <div class='row'></div>
-            <div class='row'></div>
-            <div class='row'></div>
-            <div class='row'></div>
+            <div class='row'>
+                <h3>Company Name (Optional)</h3>
+                <input type="text">
+            </div>
+            <div class='row'>
+                <h3>Country / Region</h3>
+                <input list="country" name="country" placeholder="Sri Lanka">
+                <datalist id="country">
+                    <option value="Vietnam">
+                    <option value="Sri Lanka">
+                    <option value="US">
+                    <option value="Thailand">
+                    <option value="Laos">
+                </datalist>
+            </div>
+            <div class='row'>
+                <h3>Street address</h3>
+                <input type="text">
+            </div>
+            <div class='row'>
+                <h3>Town / City</h3>
+                <input type="text">
+            </div>
+            <div class='row'>
+                <h3>Province</h3>
+                <input type="number" placeholder="Wester Province">
+            </div>
+            <div class='row'>
+                <h3>ZIP code</h3>
+                <input type="text">
+            </div>
+            <div class='row'>
+                <h3>Phone</h3>
+                <input type="text">
+            </div>
+            <div class='row'>
+                <h3>Email address</h3>
+                <input type="text">
+            </div>
+            <div class='row'>
+                <input type="text" id='lastrow' placeholder="Additional information">
+            </div>
         </div>
         <div class='money-details'></div>
     </div>
