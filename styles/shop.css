@@ -207,28 +207,6 @@
     width:98px;
     height: 60px;
 }
-.servicecontainer{
-    background-color: rgba(250, 243, 234, 1);
-    width: 1440px;
-    height: 270px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.service-content{
-    display: flex;
-    margin-right:55.33px ;
-}
-.service-content .main{
-    margin-left: 10px;
-}
-.service-content h3{
-    color: rgba(137, 137, 137, 1);
-    font-weight: 400;
-}
-#cup{
-    margin-left: 53px;
-}
 #nametaglast{
     font-size: 15px;
     width: 218px;

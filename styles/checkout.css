@@ -1,0 +1,43 @@
+.main-checkout{
+    width: 1242px;
+    height: 1714px;
+    margin:63px 98px 52px 100px;
+    display:flex;
+    justify-content: start;
+}
+.billing-details{
+    width: 608px;
+    height: 1714px;
+    margin-right: 26px;
+    position: relative
+}
+.billing-details h1{
+    width: 245px;
+    height: 54px;
+    font-size: 35px;
+    margin-top: 35px;
+    margin-left:74px;
+    margin-right: 289px;
+}
+.billing-details .row{
+    width: 454px;
+    height: 121px;
+    margin-left: 75px;
+    margin-right: 79px;
+    margin-bottom: 36px;
+}
+#nameinfo{
+    display: flex;
+}
+.name{
+    width: 212px;
+    height: 121px;
+}
+#a{
+    margin-right: 31px;
+}
+.money-details{
+    background-color: red;
+    width: 608px;
+    height: 789px;
+}
