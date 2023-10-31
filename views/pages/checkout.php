@@ -65,7 +65,12 @@
             </div>
             <div class='row'>
                 <h3>Province</h3>
-                <input type="number" placeholder="Wester Province">
+                <input list="city" name="city" placeholder="Wester Province">
+                <datalist id="city">
+                    <option value="Western Province">
+                    <option value="Southern Province">
+                    <option value="Eastern Province">
+                </datalist>
             </div>
             <div class='row'>
                 <h3>ZIP code</h3>
