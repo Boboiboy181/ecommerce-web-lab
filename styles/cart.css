@@ -1,0 +1,104 @@
+.main-content {
+    background-color: #fff;
+    width: 1440px;
+}
+
+.content-container {
+    padding: 72px 100px 63px 100px;
+    display: flex;
+}
+
+thead {
+    width: 817px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #F9F1E7;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 817px;
+}
+
+thead {
+    background-color: #F9F1E7;
+}
+
+.card-detail {
+    width: 393px;
+    height: 390px;
+    flex-shrink: 0;
+    background-color: #F9F1E7;
+    position: relative;
+}
+
+.card-detail .card-total {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.card-detail-content {
+    padding: 15px 75px 0;
+}
+
+.subtotal-container {
+    padding-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal-container .subtotal-price {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtotal-container .p-title,
+.total-container .p-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.total-container {
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-container .total-price {
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-detail-content button {
+    padding: 14px 58px;
+    background-color: #F9F1E7;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 42px;
+    position: absolute;
+    right: 85px;
+}
