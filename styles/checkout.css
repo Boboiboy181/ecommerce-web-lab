@@ -119,4 +119,47 @@
     font-size: 24px;
     font-weight: 750;
 }
-
+.policy{
+    margin-top: 22.5px;
+    height: 388px;
+    position:relative
+}
+.choice{
+    width: 527px;
+    height: 107px;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+.choice p{
+    width: 175px;
+    padding-left: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 26px;
+}
+.bank{
+    left:11px;
+}
+.choice-content{
+    position: relative;
+    bottom: 26px;
+    margin-top: 11px;
+}
+#noblank{
+    height:24px;
+}
+.notchoose{
+    color: rgba(159, 159, 159, 1);
+}
+.place-order{
+    background-color: white;
+    left:110px;
+    right: 100px;
+    top:324px;
+    width:318px;
+    height: 64px;
+    position: absolute;
+    border-radius: 15px;
+    font-size: 20px;
+}

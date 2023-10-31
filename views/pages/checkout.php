@@ -102,6 +102,27 @@
                             <h3 id='finalprice'>Rs. 250,000.00</h3>
                         </div>
                     </div>
+                    <div class='policy'>
+                        <div class='choice'>
+                            <input type="radio">
+                            <p class='bank'>Direct Bank Transfer</p>
+                            <div class='choice-content notchoose' >
+                            Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                            </div>
+                        </div>
+                        <div class='choice' id='noblank'>
+                            <input type="radio">
+                            <p class='bank notchoose' >Direct Bank Transfer</p>
+                        </div>
+                        <div class='choice'>
+                            <input type="radio">
+                            <p class='notchoose'>Cash On Delivery</p>
+                            <div class='choice-content '>
+                            Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <strong>privacy policy</strong>.
+                            </div>
+                        </div>
+                        <button class="place-order">Place Order</button>
+                    </div>
                 </div>
             </div>
         <!-- EndofMoneyInfo -->
