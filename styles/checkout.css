@@ -1,0 +1,167 @@
+.main-checkout{
+    width: 1242px;
+    height: 1714px;
+    margin:63px 98px 52px 100px;
+    display:flex;
+    justify-content: start;
+}
+.billing-details{
+    width: 608px;
+    height: 1714px;
+    margin-right: 26px;
+    position: relative
+}
+.billing-details h1{
+    width: 245px;
+    height: 54px;
+    font-size: 35px;
+    margin-top: 35px;
+    margin-left:74px;
+    margin-right: 289px;
+}
+.billing-details .row{
+    width: 454px;
+    height: 121px;
+    margin-left: 75px;
+    margin-right: 79px;
+    margin-bottom: 36px;
+}
+.row input{
+    width: 453px;
+    height: 75px;
+    margin-top: 22px;
+    margin-right: 1px;
+    border-radius: 9px ;
+    border-color: rgba(159, 159, 159, 1);
+    padding: 29px;
+    font-size: 16px;
+    border-style:double;
+}
+.row input::placeholder{
+    width: 179px;
+    height: 24px;
+    font-size: 16px;
+}
+.row h3{
+    font-weight: 500;
+}
+.nameinfo{
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: 75px;
+}
+.name{
+    width: 212px;
+    height: 121px;
+}
+.name h3{
+    font-weight: 500;
+}
+.name input{
+    width: 211px;
+    height: 75px;
+    margin-top: 22px;
+    margin-right: 1px;
+    border-radius: 9px ;
+    border-color: rgba(159, 159, 159, 1);
+    border-style:double;
+}
+#First{
+    margin-right: 31px;
+}
+.money-details{
+    width: 608px;
+    height: 789px;
+}
+.money-info{
+    height: 616px;
+    margin: 87px 37px 86px 38px;
+}
+.product-info{
+    width: 533px;
+    height: 206px;
+    border-bottom: 3px solid;
+    border-color: rgba(217, 217, 217, 1);
+    display: flex;
+}
+.product{
+    width: 50%;
+    height: 165px;
+}
+.subtotal{
+    width: 50%;
+    height: 165px;
+}
+.product h1{
+    margin-bottom: 14px;
+    font-size:24px ;
+    font-weight: 500;
+}
+.product h3{
+    margin-bottom: 14px;
+    margin-bottom: 22px;
+    font-size:16px ;
+    font-weight: 500;
+}
+.subtotal h1{
+    text-align: right;
+    margin-bottom: 14px;
+    font-size:24px ;
+    font-weight: 500;
+}
+.subtotal h3{
+    text-align: right;
+    margin-bottom: 22px;
+    font-size:16px ;
+    font-weight: 500;
+}
+#finalprice{
+    color: rgba(184, 142, 47, 1);
+    font-size: 24px;
+    font-weight: 750;
+}
+.policy{
+    margin-top: 22.5px;
+    height: 388px;
+    position:relative
+}
+.choice{
+    width: 527px;
+    height: 107px;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+.choice p{
+    width: 175px;
+    padding-left: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 26px;
+}
+.bank{
+    left:11px;
+}
+.choice-content{
+    position: relative;
+    bottom: 26px;
+    margin-top: 11px;
+}
+#noblank{
+    height:24px;
+}
+.notchoose{
+    color: rgba(159, 159, 159, 1);
+}
+.place-order{
+    background-color: white;
+    left:110px;
+    right: 100px;
+    top:324px;
+    width:318px;
+    height: 64px;
+    position: absolute;
+    border-radius: 15px;
+    font-size: 20px;
+}

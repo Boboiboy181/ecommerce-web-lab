@@ -244,6 +244,61 @@
     height: 60px;
 }
 
+#nametaglast{
+    font-size: 15px;
+    width: 218px;
+}
+.addcartsection{
+    width: 252px;
+    height: 96px;
+    position: absolute;
+    top: 175px;
+    bottom: 175px;
+    right: 17px;
+    left: 16px;
+    display: none;
+}
+.addcartsection-btn{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.addcartsection-btn button{
+    height: 100%;
+    width: 202px;
+    color: rgba(184, 142, 47, 1);
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+}
+.addcartsection-link{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: white;
+}
+.content-card:hover .addcartsection{
+    display: block;
+    filter: none;
+}
+.content-card:hover img{
+    filter: brightness(0.5);
+}
+.content-card:hover .product-content{
+    background-color: RGB(110,110,111);
+}
+.product-content{
+    position: absolute;
+    top: 301px;
+    width: 285px;
+    height: 145px;
+}
+.content-card:hover .nohove{
+    filter:none;
+}
+
 .servicecontainer {
     background-color: rgba(250, 243, 234, 1);
     width: 1440px;
