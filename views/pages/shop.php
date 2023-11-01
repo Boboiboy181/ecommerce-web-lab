@@ -1,3 +1,13 @@
+<?php
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+
+$host = $_SERVER['HTTP_HOST'];
+
+$scriptPath = pathinfo($_SERVER['SCRIPT_NAME'], PATHINFO_DIRNAME);
+
+$baseUrl = $protocol . $host . $scriptPath . '/';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,206 +62,238 @@
             <div class='content-container'>
                 <div class='row'>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 1.svg" alt="item1">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Syltherine</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                            <strike>
-                                <p>Rp 3.500.000</p>
-                            </strike>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 1.svg" alt="item1">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Syltherine</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                                <strike>
+                                    <p>Rp 3.500.000</p>
+                                </strike>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 2.svg" alt="item2">
-                        <div class='nametag'>
-                            <h2>Leviosa</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 2.svg" alt="item2">
+                            <div class='nametag'>
+                                <h2>Leviosa</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 3.svg" alt="item3">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Lolito</h2>
-                            <p>Luxury big sofa</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 7.000.000</h3>
-                            <strike>
-                                <p>Rp 14.000.000</p>
-                            </strike>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 3.svg" alt="item3">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Lolito</h2>
+                                <p>Luxury big sofa</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 7.000.000</h3>
+                                <strike>
+                                    <p>Rp 14.000.000</p>
+                                </strike>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 4.svg" alt="item4">
-                        <div class='new'>New</div>
-                        <div class='nametag'>
-                            <h2>Respira</h2>
-                            <p id='nametaglast'>Outdoor bar table and stool</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 500.000</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class='row'>
-                    <div class='content-card'>
-                        <img src="../../assets/imgs/image 1.svg" alt="item1">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Syltherine</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                            <strike>
-                                <p>Rp 3.500.000</p>
-                            </strike>
-                        </div>
-                    </div>
-                    <div class='content-card'>
-                        <img src="../../assets/imgs/image 2.svg" alt="item2">
-                        <div class='nametag'>
-                            <h2>Leviosa</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                        </div>
-                    </div>
-                    <div class='content-card'>
-                        <img src="../../assets/imgs/image 3.svg" alt="item3">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Lolito</h2>
-                            <p>Luxury big sofa</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 7.000.000</h3>
-                            <strike>
-                                <p>Rp 14.000.000</p>
-                            </strike>
-                        </div>
-                    </div>
-                    <div class='content-card'>
-                        <img src="../../assets/imgs/image 4.svg" alt="item4">
-                        <div class='new'>New</div>
-                        <div class='nametag'>
-                            <h2>Respira</h2>
-                            <p id='nametaglast'>Outdoor bar table and stool</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 500.000</h3>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 4.svg" alt="item4">
+                            <div class='new'>New</div>
+                            <div class='nametag'>
+                                <h2>Respira</h2>
+                                <p id='nametaglast'>Outdoor bar table and stool</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 500.000</h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class='row'>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 1.svg" alt="item1">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Syltherine</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                            <strike>
-                                <p>Rp 3.500.000</p>
-                            </strike>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 1.svg" alt="item1">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Syltherine</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                                <strike>
+                                    <p>Rp 3.500.000</p>
+                                </strike>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 2.svg" alt="item2">
-                        <div class='nametag'>
-                            <h2>Leviosa</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 2.svg" alt="item2">
+                            <div class='nametag'>
+                                <h2>Leviosa</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 3.svg" alt="item3">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Lolito</h2>
-                            <p>Luxury big sofa</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 7.000.000</h3>
-                            <strike>
-                                <p>Rp 14.000.000</p>
-                            </strike>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 3.svg" alt="item3">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Lolito</h2>
+                                <p>Luxury big sofa</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 7.000.000</h3>
+                                <strike>
+                                    <p>Rp 14.000.000</p>
+                                </strike>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 4.svg" alt="item4">
-                        <div class='new'>New</div>
-                        <div class='nametag'>
-                            <h2>Respira</h2>
-                            <p id='nametaglast'>Outdoor bar table and stool</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 500.000</h3>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 4.svg" alt="item4">
+                            <div class='new'>New</div>
+                            <div class='nametag'>
+                                <h2>Respira</h2>
+                                <p id='nametaglast'>Outdoor bar table and stool</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 500.000</h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class='row'>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 1.svg" alt="item1">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Syltherine</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                            <strike>
-                                <p>Rp 3.500.000</p>
-                            </strike>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 1.svg" alt="item1">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Syltherine</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                                <strike>
+                                    <p>Rp 3.500.000</p>
+                                </strike>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 2.svg" alt="item2">
-                        <div class='nametag'>
-                            <h2>Leviosa</h2>
-                            <p>Stylish Cafe Chair</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 2.500.000</h3>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 2.svg" alt="item2">
+                            <div class='nametag'>
+                                <h2>Leviosa</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 3.svg" alt="item3">
-                        <div class='saleoff'>-30%</div>
-                        <div class='nametag'>
-                            <h2>Lolito</h2>
-                            <p>Luxury big sofa</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 7.000.000</h3>
-                            <strike>
-                                <p>Rp 14.000.000</p>
-                            </strike>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 3.svg" alt="item3">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Lolito</h2>
+                                <p>Luxury big sofa</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 7.000.000</h3>
+                                <strike>
+                                    <p>Rp 14.000.000</p>
+                                </strike>
+                            </div>
+                        </a>
                     </div>
                     <div class='content-card'>
-                        <img src="../../assets/imgs/image 4.svg" alt="item4">
-                        <div class='new'>New</div>
-                        <div class='nametag'>
-                            <h2>Respira</h2>
-                            <p id='nametaglast'>Outdoor bar table and stool</p>
-                        </div>
-                        <div class='pricetag'>
-                            <h3>Rp 500.000</h3>
-                        </div>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 4.svg" alt="item4">
+                            <div class='new'>New</div>
+                            <div class='nametag'>
+                                <h2>Respira</h2>
+                                <p id='nametaglast'>Outdoor bar table and stool</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 500.000</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='content-card'>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 1.svg" alt="item1">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Syltherine</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                                <strike>
+                                    <p>Rp 3.500.000</p>
+                                </strike>
+                            </div>
+                        </a>
+                    </div>
+                    <div class='content-card'>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 2.svg" alt="item2">
+                            <div class='nametag'>
+                                <h2>Leviosa</h2>
+                                <p>Stylish Cafe Chair</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 2.500.000</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class='content-card'>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 3.svg" alt="item3">
+                            <div class='saleoff'>-30%</div>
+                            <div class='nametag'>
+                                <h2>Lolito</h2>
+                                <p>Luxury big sofa</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 7.000.000</h3>
+                                <strike>
+                                    <p>Rp 14.000.000</p>
+                                </strike>
+                            </div>
+                        </a>
+                    </div>
+                    <div class='content-card'>
+                        <a href="<?php echo $baseUrl; ?>detail.php">
+                            <img src="../../assets/imgs/image 4.svg" alt="item4">
+                            <div class='new'>New</div>
+                            <div class='nametag'>
+                                <h2>Respira</h2>
+                                <p id='nametaglast'>Outdoor bar table and stool</p>
+                            </div>
+                            <div class='pricetag'>
+                                <h3>Rp 500.000</h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class='pagenumber'>
