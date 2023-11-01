@@ -1,11 +1,17 @@
 .main-content {
     background-color: #fff;
     width: 1440px;
+    margin: unset;
+    height: unset !important;
 }
 
 .content-container {
-    padding: 72px 100px 63px 100px;
+    margin: unset;
     display: flex;
+    position: relative;
+    margin: 0 auto;
+    padding: 72px 0;
+    gap: 30px;
 }
 
 thead {
@@ -13,7 +19,6 @@ thead {
     height: 55px;
     flex-shrink: 0;
     background-color: #F9F1E7;
-
 }
 
 table {
@@ -23,6 +28,47 @@ table {
 
 thead {
     background-color: #F9F1E7;
+    margin-bottom: 55px;
+}
+
+tbody tr {
+    padding-top: 55px;
+}
+
+tbody tr td:first-child {
+    
+    text-align: center;
+    border-radius: 10px;
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25); */
+    width: 100px;
+    height: 100px;
+}
+
+tr td:nth-child(2) {
+    padding-right: 69px;
+    padding-left: 37px;
+}
+
+tr td:nth-child(3) {
+    width: 200px;
+    text-align: left;
+}
+
+tr td:nth-child(4) {
+    text-align: center;
+    padding-right: 36px;
+}
+
+tbody tr td:last-child {
+    color: #B88E2F;
+}
+
+tbody tr td input {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #9F9F9F;
+    appearance: none;
 }
 
 .card-detail {

@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="../../styles/home.css">
     <link rel="stylesheet" href="../../styles/shop.css">
     <link rel="stylesheet" href="../../styles/cart.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2Leèv1ZTLJsKEsnl4HGMf5XRZuPqx5yOFnFaOFbVgCiCeU87S0up6ptKU
+">
     <title>Lab1</title>
 </head>
 
@@ -42,7 +45,8 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img height="100px" width="100px" src="../../assets/imgs/Asgaard-sofa-5.png" alt=""></td>
+                                <td><img height="100px" width="100px" src="../../assets/imgs/Asgaard-sofa-5.png" alt="">
+                                </td>
                                 <td>
                                     <p>Asgaard sofa</p>
                                 </td>
@@ -53,7 +57,7 @@
                                 <td>
                                     <p>Rs. 250,000.00</p>
                                 </td>
-                                <td><i>icon</i></td>
+                                <td><i class="fa-solid fa-trash"></i></td>
                             </tr>
                         </tbody>
                     </table>
