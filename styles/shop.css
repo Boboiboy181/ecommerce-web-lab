@@ -1,22 +1,25 @@
-.banner-container{
-    background-image: url('../assets/imgs/banner.png') ;
+.banner-container {
+    background-image: url('../assets/imgs/banner.png');
     width: 1440px;
     height: 316px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.banner-content{
+
+.banner-content {
     text-align: center;
 }
-.function-container{
+
+.function-container {
     position: relative;
     width: 1440px;
     height: 100px;
-    background-color: RGB(249,241,231);
+    background-color: RGB(249, 241, 231);
 }
-.functionbar-filter{
-    position:absolute;
+
+.functionbar-filter {
+    position: absolute;
     width: 85px;
     height: 30px;
     left: 98px;
@@ -24,38 +27,43 @@
     bottom: 35px;
     display: flex;
 }
-.functionbar-filter p{
+
+.functionbar-filter p {
     margin-left: 12px;
     font-size: 20px;
 }
-.functionbar-4dots{
-    position:absolute;
+
+.functionbar-4dots {
+    position: absolute;
     width: 28px;
     height: 28px;
-    left:206px;
-    top:36px;
-    bottom:36px;
+    left: 206px;
+    top: 36px;
+    bottom: 36px;
 }
-.function-viewlist{
-    position:absolute;
+
+.function-viewlist {
+    position: absolute;
     width: 24px;
     height: 24px;
-    left:258px;
-    top:38px;
-    bottom:38px;
+    left: 258px;
+    top: 38px;
+    bottom: 38px;
 }
-.function-showresult{
-    position:absolute;
+
+.function-showresult {
+    position: absolute;
     width: 237px;
     height: 37px;
-    left:312px;
-    top:31px;
-    bottom:32px;
-    padding-top: 6px ;
+    left: 312px;
+    top: 31px;
+    bottom: 32px;
+    padding-top: 6px;
     padding-left: 31px;
-    border-left: 2px solid RGB(159,159,159);
+    border-left: 2px solid RGB(159, 159, 159);
 }
-.function-showpagenumber{
+
+.function-showpagenumber {
     position: absolute;
     display: flex;
     width: 126px;
@@ -67,7 +75,8 @@
     font-size: 20px;
     align-items: center;
 }
-.function-showpagenumber input{
+
+.function-showpagenumber input {
     width: 55px;
     height: 55px;
     margin-left: 17px;
@@ -76,6 +85,7 @@
     color: #9F9F9F;
     border-style: none;
 }
+
 .function-sortby {
     position: absolute;
     display: flex;
@@ -88,7 +98,8 @@
     font-size: 20px;
     align-items: center;
 }
-.function-sortby input{
+
+.function-sortby input {
     width: 188px;
     height: 55px;
     margin-left: 17px;
@@ -96,48 +107,56 @@
     color: #9F9F9F;
     border-style: none;
 }
-.function-sortby input::placeholder{
+
+.function-sortby input::placeholder {
     padding-left: 30px;
 }
-.main-content{
+
+.main-content {
     width: 1440px;
     height: 2051px;
     margin-top: 52px;
 }
-.content-container{
+
+.content-container {
     width: 1236px;
-    height: 2034px;
+    height: fit-content;
     margin-top: 17px;
-    margin-left:99px;
+    margin-left: 99px;
     margin-right: 105px;
     position: relative;
 }
-.content-container .row{
+
+.content-container .row {
     height: 446px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
 
-.content-container .content-card{
-    background-color: RGB(244,245,247);
+.content-container .content-card {
+    background-color: RGB(244, 245, 247);
     width: 285px;
     height: 446px;
     position: relative;
 }
-.nametag{
+
+.nametag {
     width: 177px;
     height: 61px;
     margin-left: 16px;
 }
+
 .nametag h2 {
-    color:rgba(58, 58, 58, 1)
+    color: rgba(58, 58, 58, 1)
 }
-.nametag p{
+
+.nametag p {
     margin-top: 8px;
-    color:rgba(137, 137, 137, 1)
+    color: rgba(137, 137, 137, 1)
 }
-.pricetag{
+
+.pricetag {
     display: flex;
     width: 249px;
     height: 30px;
@@ -145,19 +164,24 @@
     margin-left: 16px;
     margin-bottom: 30px;
 }
+
 .pricetag h3 {
-    color:rgba(58, 58, 58, 1)
+    color: rgba(58, 58, 58, 1)
 }
+
 .pricetag p {
     margin-left: 16px;
     color: rgba(176, 176, 176, 1);
 }
-.pricetag strike{
+
+.pricetag strike {
     color: rgba(176, 176, 176, 1);
 }
-.content-card .saleoff{
-    background-color: RGB(233,113,113);
-    width: 45px; /* Chiều rộng của thẻ */
+
+.content-card .saleoff {
+    background-color: RGB(233, 113, 113);
+    width: 45px;
+    /* Chiều rộng của thẻ */
     height: 45px;
     border-radius: 50%;
     color: white;
@@ -165,12 +189,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    right:24px;
+    right: 24px;
     top: 24px;
 }
-.content-card .new{
-    background-color: RGB(46,193,172);
-    width: 45px; /* Chiều rộng của thẻ */
+
+.content-card .new {
+    background-color: RGB(46, 193, 172);
+    width: 45px;
+    /* Chiều rộng của thẻ */
     height: 45px;
     border-radius: 50%;
     color: white;
@@ -178,10 +204,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    right:24px;
+    right: 24px;
     top: 24px;
 }
-.content-container .pagenumber{
+
+.content-container .pagenumber {
     width: 392px;
     height: 90px;
     position: absolute;
@@ -190,7 +217,8 @@
     display: flex;
     align-items: end;
 }
-.pagebutton{
+
+.pagebutton {
     background-color: rgba(249, 241, 231, 1);
     width: 60px;
     height: 60px;
@@ -199,15 +227,18 @@
     border-style: none;
     font-size: 20px;
 }
-#button1{
-    background-color: RGB(184,142,47);
-    color:white;
+
+#button1 {
+    background-color: RGB(184, 142, 47);
+    color: white;
 }
-#buttonNext{
-    width:98px;
+
+#buttonNext {
+    width: 98px;
     height: 60px;
 }
-.servicecontainer{
+
+.servicecontainer {
     background-color: rgba(250, 243, 234, 1);
     width: 1440px;
     height: 270px;
@@ -215,21 +246,26 @@
     justify-content: center;
     align-items: center;
 }
-.service-content{
+
+.service-content {
     display: flex;
-    margin-right:55.33px ;
+    margin-right: 55.33px;
 }
-.service-content .main{
+
+.service-content .main {
     margin-left: 10px;
 }
-.service-content h3{
+
+.service-content h3 {
     color: rgba(137, 137, 137, 1);
     font-weight: 400;
 }
-#cup{
+
+#cup {
     margin-left: 53px;
 }
-#nametaglast{
+
+#nametaglast {
     font-size: 15px;
     width: 218px;
 }
