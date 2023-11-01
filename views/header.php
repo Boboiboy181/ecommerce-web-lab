@@ -26,7 +26,7 @@ $baseUrl = $protocol . $host . $scriptPath . '/';
             <li class="header-item"><img src="../../assets/imgs/mdi_account-alert-outline.svg" alt=""></li>
             <li class="header-item"><img src="../../assets/imgs/akar-icons_search.svg" alt=""></li>
             <li class="header-item"><img src="../../assets/imgs/akar-icons_heart.svg" alt=""></li>
-            <li class="header-item"><img src="../../assets/imgs/ant-design_shopping-cart-outlined.svg" alt=""></li>
+            <li class="header-item"><a href="<?php echo $baseUrl; ?>cart.php"><img src="../../assets/imgs/ant-design_shopping-cart-outlined.svg" alt=""></a></li>
         </ul>
     </div>
 </header>

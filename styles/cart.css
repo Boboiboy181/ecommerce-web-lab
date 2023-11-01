@@ -1,0 +1,150 @@
+.main-content {
+    background-color: #fff;
+    width: 1440px;
+    margin: unset;
+    height: unset !important;
+}
+
+.content-container {
+    margin: unset;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    padding: 72px 0;
+    gap: 30px;
+}
+
+thead {
+    width: 817px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #F9F1E7;
+}
+
+table {
+    border-collapse: collapse;
+    width: 817px;
+}
+
+thead {
+    background-color: #F9F1E7;
+    margin-bottom: 55px;
+}
+
+tbody tr {
+    padding-top: 55px;
+}
+
+tbody tr td:first-child {
+    
+    text-align: center;
+    border-radius: 10px;
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25); */
+    width: 100px;
+    height: 100px;
+}
+
+tr td:nth-child(2) {
+    padding-right: 69px;
+    padding-left: 37px;
+}
+
+tr td:nth-child(3) {
+    width: 200px;
+    text-align: left;
+}
+
+tr td:nth-child(4) {
+    text-align: center;
+    padding-right: 36px;
+}
+
+tbody tr td:last-child {
+    color: #B88E2F;
+}
+
+tbody tr td input {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #9F9F9F;
+    appearance: none;
+}
+
+.card-detail {
+    width: 393px;
+    height: 390px;
+    flex-shrink: 0;
+    background-color: #F9F1E7;
+    position: relative;
+}
+
+.card-detail .card-total {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.card-detail-content {
+    padding: 15px 75px 0;
+}
+
+.subtotal-container {
+    padding-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal-container .subtotal-price {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtotal-container .p-title,
+.total-container .p-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.total-container {
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-container .total-price {
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-detail-content button {
+    padding: 14px 58px;
+    background-color: #F9F1E7;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 42px;
+    position: absolute;
+    right: 85px;
+}
