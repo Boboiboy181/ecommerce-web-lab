@@ -1,3 +1,13 @@
+<?php
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+
+$host = $_SERVER['HTTP_HOST'];
+
+$scriptPath = pathinfo($_SERVER['SCRIPT_NAME'], PATHINFO_DIRNAME);
+
+$baseUrl = $protocol . $host . $scriptPath . '/';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +83,7 @@
                             <p class="p-title">Total</p>
                             <p class="total-price">Rs. 250,000.00</p>
                         </div>
-                        <button>Check out</button>
+                        <a href="<?php echo $baseUrl; ?>checkout.php">Check out</a>
                     </div>
                 </div>
             </div>

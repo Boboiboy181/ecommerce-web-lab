@@ -133,8 +133,9 @@ tbody tr td input {
     line-height: normal;
 }
 
-.card-detail-content button {
+.card-detail-content a {
     padding: 14px 58px;
+    text-decoration: none;
     background-color: #F9F1E7;
     color: #000;
     font-family: Poppins;
