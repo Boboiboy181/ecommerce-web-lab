@@ -53,17 +53,64 @@
             <div class='row'>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 1.svg" alt="item1">
-                    <div class='saleoff'>-30%</div>
-                    <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chair</p>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
                     </div>
-                    <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Syltherine</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                            <strike><p>Rp 3.500.000</p></strike>
+                        </div>
                     </div>
                 </div>
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Leviosa</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
                         <h2>Leviosa</h2>
@@ -72,8 +119,8 @@
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
                     </div>
-                </div>
-                <div class='content-card'>
+                </div> -->
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
@@ -84,8 +131,40 @@
                         <h3>Rp 7.000.000</h3>
                         <strike><p>Rp 14.000.000</p></strike>
                     </div>
-                </div>
+                </div> -->
+
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Lolito</h2>
+                            <p>Luxury big sofa</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 7.000.000</h3>
+                            <strike><p>Rp 14.000.000</p></strike>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
@@ -94,23 +173,100 @@
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 500.000</h3>
+                    </div>
+                </div> -->
+
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Respira</h2>
+                            <p id='nametaglast'>Outdoor bar table and stool</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 500.000</h3>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class='row'>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 1.svg" alt="item1">
-                    <div class='saleoff'>-30%</div>
-                    <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chair</p>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
                     </div>
-                    <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Syltherine</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                            <strike><p>Rp 3.500.000</p></strike>
+                        </div>
                     </div>
                 </div>
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Leviosa</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
                         <h2>Leviosa</h2>
@@ -119,8 +275,8 @@
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
                     </div>
-                </div>
-                <div class='content-card'>
+                </div> -->
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
@@ -131,8 +287,40 @@
                         <h3>Rp 7.000.000</h3>
                         <strike><p>Rp 14.000.000</p></strike>
                     </div>
-                </div>
+                </div> -->
+
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Lolito</h2>
+                            <p>Luxury big sofa</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 7.000.000</h3>
+                            <strike><p>Rp 14.000.000</p></strike>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
@@ -141,23 +329,100 @@
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 500.000</h3>
+                    </div>
+                </div> -->
+
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Respira</h2>
+                            <p id='nametaglast'>Outdoor bar table and stool</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 500.000</h3>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class='row'>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 1.svg" alt="item1">
-                    <div class='saleoff'>-30%</div>
-                    <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chair</p>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
                     </div>
-                    <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Syltherine</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                            <strike><p>Rp 3.500.000</p></strike>
+                        </div>
                     </div>
                 </div>
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Leviosa</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
                         <h2>Leviosa</h2>
@@ -166,8 +431,8 @@
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
                     </div>
-                </div>
-                <div class='content-card'>
+                </div> -->
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
@@ -178,8 +443,40 @@
                         <h3>Rp 7.000.000</h3>
                         <strike><p>Rp 14.000.000</p></strike>
                     </div>
-                </div>
+                </div> -->
+
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Lolito</h2>
+                            <p>Luxury big sofa</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 7.000.000</h3>
+                            <strike><p>Rp 14.000.000</p></strike>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
@@ -188,23 +485,100 @@
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 500.000</h3>
+                    </div>
+                </div> -->
+
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Respira</h2>
+                            <p id='nametaglast'>Outdoor bar table and stool</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 500.000</h3>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class='row'>
                 <div class='content-card'>
                     <img src="../../assets/imgs/image 1.svg" alt="item1">
-                    <div class='saleoff'>-30%</div>
-                    <div class='nametag'>
-                        <h2>Syltherine</h2>
-                        <p>Stylish Cafe Chair</p>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
                     </div>
-                    <div class='pricetag'>
-                        <h3>Rp 2.500.000</h3>
-                        <strike><p>Rp 3.500.000</p></strike>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Syltherine</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                            <strike><p>Rp 3.500.000</p></strike>
+                        </div>
                     </div>
                 </div>
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 2.svg" alt="item2">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Leviosa</h2>
+                            <p>Stylish Cafe Chair</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 2.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 2.svg" alt="item2">
                     <div class='nametag'>
                         <h2>Leviosa</h2>
@@ -213,8 +587,8 @@
                     <div class='pricetag'>
                         <h3>Rp 2.500.000</h3>
                     </div>
-                </div>
-                <div class='content-card'>
+                </div> -->
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 3.svg" alt="item3">
                     <div class='saleoff'>-30%</div>
                     <div class='nametag'>
@@ -225,8 +599,40 @@
                         <h3>Rp 7.000.000</h3>
                         <strike><p>Rp 14.000.000</p></strike>
                     </div>
-                </div>
+                </div> -->
+
                 <div class='content-card'>
+                    <img src="../../assets/imgs/image 3.svg" alt="item3">
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='saleoff'>-30%</div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Lolito</h2>
+                            <p>Luxury big sofa</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 7.000.000</h3>
+                            <strike><p>Rp 14.000.000</p></strike>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class='content-card'>
                     <img src="../../assets/imgs/image 4.svg" alt="item4">
                     <div class='new'>New</div>
                     <div class='nametag'>
@@ -235,6 +641,36 @@
                     </div>
                     <div class='pricetag'>
                         <h3>Rp 500.000</h3>
+                    </div>
+                </div> -->
+
+                <div class='content-card'>
+                    <img src="../../assets/imgs/image 4.svg" alt="item4">
+                    <div class='new'>New</div>
+                    <div class='addcartsection'>
+                        <div class='addcartsection-btn'>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class='addcartsection-link'>
+                            <p>
+                                <img src="../../assets/imgs/share.svg" alt="share" class='nohove'>
+                                Share</p>
+                            <p id='fixed'>
+                                <img src="../../assets/imgs/compare.svg" alt="share" class='nohove'>
+                                Compare</p>
+                            <p>
+                                <img src="../../assets/imgs/Heart.svg" alt="share" class='nohove'>
+                                Like</p>
+                        </div>
+                    </div>
+                    <div class='product-content'>
+                        <div class='nametag'>
+                            <h2>Respira</h2>
+                            <p id='nametaglast'>Outdoor bar table and stool</p>
+                        </div>
+                        <div class='pricetag'>
+                            <h3>Rp 500.000</h3>
+                        </div>
                     </div>
                 </div>
             </div>
